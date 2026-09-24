@@ -1,0 +1,8 @@
+﻿# Classroom Monitoring & Alarm System - Python dependencies
+# Install with: pip install -r requirements.txt
+
+mediapipe>=0.10.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+ultralytics>=8.2.0
+pygame>=2.5.0
