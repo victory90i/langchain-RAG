@@ -1,0 +1,4 @@
+from langchain_community import PYDocumentLoader
+loader=PYDocumentLoader.loads(file.txt)
+
+pip install langchain_community tiktokeen langchain-openai langchainhub chromedb langchain
