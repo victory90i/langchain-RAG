@@ -1,0 +1,30 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+**/.streamlit/secrets.toml
+**/secrets.toml
+**/credentials*.json
+**/service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local Python environments and generated files
+**/.venv/
+**/venv/
+**/rag-env/
+**/__pycache__/
+*.py[cod]
+
+# Model caches, vector indexes, and private input documents
+**/.cache/
+**/.huggingface/
+rag/data/
+
+# Editor and operating-system noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
